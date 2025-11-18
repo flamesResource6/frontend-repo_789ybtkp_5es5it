@@ -1,9 +1,9 @@
-import { Spotify, Youtube, Instagram, Music2, Radio } from 'lucide-react'
+import { Youtube, Instagram, Music2, Radio, Disc3 } from 'lucide-react'
 
 export default function Footer() {
   const year = new Date().getFullYear()
   const socials = [
-    { icon: <Spotify className="w-5 h-5" />, href: 'https://open.spotify.com/' },
+    { icon: <Disc3 className="w-5 h-5" />, href: 'https://open.spotify.com/' },
     { icon: <Music2 className="w-5 h-5" />, href: 'https://soundcloud.com/' },
     { icon: <Youtube className="w-5 h-5" />, href: 'https://youtube.com/' },
     { icon: <Instagram className="w-5 h-5" />, href: 'https://instagram.com/' },

@@ -1,10 +1,10 @@
 import Spline from '@splinetool/react-spline'
 import { motion } from 'framer-motion'
-import { Spotify, Youtube, Instagram, Music2, Radio } from 'lucide-react'
+import { Youtube, Instagram, Music2, Radio, Disc3 } from 'lucide-react'
 
 export default function Hero() {
   const socials = [
-    { icon: <Spotify className="w-5 h-5" />, href: 'https://open.spotify.com/', label: 'Spotify' },
+    { icon: <Disc3 className="w-5 h-5" />, href: 'https://open.spotify.com/', label: 'Spotify' },
     { icon: <Music2 className="w-5 h-5" />, href: 'https://soundcloud.com/', label: 'SoundCloud' },
     { icon: <Youtube className="w-5 h-5" />, href: 'https://youtube.com/', label: 'YouTube' },
     { icon: <Instagram className="w-5 h-5" />, href: 'https://instagram.com/', label: 'Instagram' },
